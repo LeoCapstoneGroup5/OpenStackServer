@@ -1,0 +1,64 @@
+html {
+    margin: 0;
+}
+
+body {
+    background-color: #222222;
+    color: white;
+}
+
+button:hover {
+    background-color: #3C6478;
+    transition: all 0.4s ease 0s;
+}
+
+input, select {
+    padding: 10px 0 10px 0;
+    margin-top: 5px;
+    width: 400px;
+}
+
+button {
+    background-color: #001f3f;
+    color: white;
+    border-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+#loginDiv {
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px;
+    margin-left: -275px;
+    width: 600px;
+    height: 200px;
+    align-content: center;
+    text-align: center;
+}
+
+#createVMDiv {
+    font-size: 30px;
+    position: absolute;
+    left: 50%;
+    margin-left: -450px;
+    width: 900px;
+    align-content: center;
+    text-align: center;
+}
+
+#submitDiv {
+    margin-top: 20px;
+}
+
+[name=createButton] {   
+    background-color: #001f3f;
+}
+
+[name=createButton]:hover {
+    background-color: #3C6478;
+    transition: all 0.4s ease 0s;
+}
