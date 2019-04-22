@@ -20,8 +20,8 @@
   if (isset($_POST['openButton'])) {
     $vmId = $_POST['vmSelect'];
 
-    writeToFile($flavorSelect, "vmURL");
-
+    writeToFile($vmSelect, "vmURL");
+    //todo: add the tr -d line to this script when I get home later
     shell_exec('./getRemoteConsole.sh');
 
     $url = shell_exec('./parseVMurl.sh');
