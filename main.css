@@ -28,7 +28,7 @@ button {
 }
 
 #loginDiv {
-    font-size: 30px;
+    font-size: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -41,7 +41,7 @@ button {
 }
 
 #createVMDiv {
-    font-size: 30px;
+    font-size: 20px;
     position: absolute;
     left: 50%;
     margin-left: -450px;
@@ -54,11 +54,24 @@ button {
     margin-top: 20px;
 }
 
+#createVMDiv {
+    margin-top: 20px;
+}
+
 [name=createButton] {   
     background-color: #001f3f;
 }
 
+[name=openButton] {
+    background-color: #001f3f;
+}
+
 [name=createButton]:hover {
+    background-color: #3C6478;
+    transition: all 0.4s ease 0s;
+}
+
+[name=openButton]:hover {
     background-color: #3C6478;
     transition: all 0.4s ease 0s;
 }
