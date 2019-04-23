@@ -1,2 +1,2 @@
 #!/bin/bash
-sed -n 's/"url": //p' /var/tmp/vmURL | tr -d '", ' | sed 's/.*://'
+sed -n 's/"url": //p' /var/www/html/tmp/vmURL | tr -d '", ' | sed 's/.*://'
